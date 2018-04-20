@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name      KissAnime Episode Numbers Adjustment
+// @name      KissAnime Episode Numbers Adjust
 // @namespace kissanime-epno-adjust
 // @version   1
 // @grant     none
