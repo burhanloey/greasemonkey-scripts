@@ -72,4 +72,16 @@ a:visited {
 
 var styleSheet = document.createElement("style");
 styleSheet.innerText = styles;
-document.head.appendChild(styleSheet);
+
+// on new tab, this script run before document.head even exist
+if (document.head) {
+  document.head.appendChild(styleSheet);
+} else {
+  // constantly checking until document.head exists
+  var process = setInterval(function () {
+    if (document.head) {
+      document.head.appendChild(styleSheet);
+      clearInterval(process);
+    }
+  }, 10);
+}
