@@ -50,10 +50,6 @@ a:visited {
   color: #2958ac;
 }
 
-.thumbcaption {
-  color: darkslategrey;
-}
-
 .navbox {
   background-color: #2a2a2e;
   color: black;
@@ -68,7 +64,8 @@ a:visited {
 }
 
 .metadata,
-.vertical-navbox {
+.vertical-navbox,
+.thumbinner {
   background: #2a2a2e !important;
 }
 `;
