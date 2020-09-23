@@ -25,6 +25,11 @@ table.ambox,
   color: lightgrey; !important;
 }
 
+.table-yes,
+.table-no {
+  color: darkslategrey;
+}
+
 #mw-page-base,
 .vector-menu-tabs li{
   background-image: none;
