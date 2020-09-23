@@ -67,7 +67,8 @@ a:visited {
   background-color: #2a2a2e;
 }
 
-.metadata {
+.metadata,
+.vertical-navbox {
   background: #2a2a2e !important;
 }
 `;
